@@ -4,7 +4,9 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
-      <h1>Hola</h1>
+      <main className="mainPadding">
+        <h1>Hola</h1>
+      </main>
     </>
   );
 };
