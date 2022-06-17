@@ -1,6 +1,11 @@
 .logo {
     width: 50px;
     height: auto;
+    border-radius: 5px;
+}
+.logo:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 4px rgb(34, 77, 75);
 }
 a{
     text-decoration: none;

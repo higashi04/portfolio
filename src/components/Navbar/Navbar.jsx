@@ -3,17 +3,12 @@ import {
   Box,
   Drawer,
   IconButton,
-  List,
-  Divider,
-  ListItem,
-  ListItemButton,
   Typography,
 } from "@mui/material";
-import { ImUserTie, ImGithub, ImLinkedin, ImMail } from "react-icons/im";
-import { RiCodeBoxFill } from "react-icons/ri";
-import { FaEmpire } from "react-icons/fa";
 import Logo from "../../assets/ch.png";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+
+import DrawerList from "../DrawerListItems/DrawerList";
 
 const drawerWidth = 240
 const TemporaryDrawer = () => {
@@ -41,23 +36,7 @@ const TemporaryDrawer = () => {
       >
         <Box p={2} width="250px" textAlign="center" role="presentation">
           <Typography variant="h6" component="div">
-            <List>
-              <ListItem>
-                <ListItemButton>
-                  <Link to="/">
-                    <FaEmpire /> Home
-                  </Link>
-                </ListItemButton>
-              </ListItem>
-              <Divider />
-              <ListItem>
-                <ListItemButton>
-                  <Link to="/about">
-                    <ImUserTie /> About
-                  </Link>
-                </ListItemButton>
-              </ListItem>
-            </List>
+            <DrawerList/>
           </Typography>
         </Box>
       </Drawer>

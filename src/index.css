@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Puritan";
+  src: url("./assets/Puritan/Puritan-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Puritan";
+  src: url("./assets/Puritan/Puritan-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Puritan";
+  src: url("./assets/Puritan/Puritan-Italic.ttf");
+  font-weight: lighter;
+}
 body{
   background-color: #3D5467;
+  font-family: 'Puritan';
 }

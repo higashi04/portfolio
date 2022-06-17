@@ -16,7 +16,6 @@ function App() {
           <Route path="about" element={<About />} />
         </Route>
       </Routes>
-      <p>.i.</p>
     </BrowserRouter>
   );
 }

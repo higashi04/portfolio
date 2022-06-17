@@ -1,3 +1,11 @@
 .mainPadding{
-    padding-top: 100px;
+    padding-top: 30px;
+}
+.logoCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoImg{
+    border-radius: 15px;
 }
