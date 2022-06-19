@@ -31,8 +31,22 @@ const DrawerList = () => {
         </ListItem>
         <ListItem>
           <ListItemButton>
+            <a href="https://www.linkedin.com/in/cesar-higashi-8638b317b/">
+              <ImLinkedin /> LinkedIn Profile
+            </a>
+          </ListItemButton>
+        </ListItem>
+        <ListItem>
+          <ListItemButton>
             <Link to="projects">
               <RiCodeBoxFill /> Projects
+            </Link>
+          </ListItemButton>
+        </ListItem>
+        <ListItem>
+          <ListItemButton>
+            <Link to="contact">
+              <ImMail /> Contact Me
             </Link>
           </ListItemButton>
         </ListItem>
