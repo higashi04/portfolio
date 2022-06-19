@@ -31,7 +31,7 @@ const DrawerList = () => {
         </ListItem>
         <ListItem>
           <ListItemButton>
-            <Link to='#'>
+            <Link to="projects">
               <RiCodeBoxFill /> Projects
             </Link>
           </ListItemButton>

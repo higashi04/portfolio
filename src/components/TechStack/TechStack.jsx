@@ -6,7 +6,7 @@ export default function TechStack(props) {
     <div className='container tech-cont'>
         <div className="row my-3">
             <div className="col-6 tech-text">{props.name}</div>
-            <div className="col-3">
+            <div className="col-6">
                 <img className='img-fluid img-logo' src={props.logo} alt={props.name} />
             </div>
         </div>

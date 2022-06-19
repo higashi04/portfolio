@@ -1,0 +1,35 @@
+.project-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    padding-left: 500px;
+}
+
+.project-btnContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.project-btn{
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    width: 100px;
+}
+.project-btn:hover{
+    background-color: black;
+    color: white;
+}
+@media (max-device-width: 500px) {
+    .project-box{
+        width: fit-content;
+        padding-left: 0;
+    }
+}

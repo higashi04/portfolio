@@ -6,7 +6,6 @@ const Home = () => {
     <>
       <main className="mainPadding">
         <div className="logoCenter">
-          
           <img className="logoImg img-fluid" src={Logo} alt="logo" />
         </div>
       </main>
