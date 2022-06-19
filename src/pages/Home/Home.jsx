@@ -5,9 +5,9 @@ const Home = () => {
   return (
     <>
       <main className="mainPadding">
-        <h1>Front-end, Back-end</h1>
         <div className="logoCenter">
-          <img className="logoImg" src={Logo} alt="logo" />
+          
+          <img className="logoImg img-fluid" src={Logo} alt="logo" />
         </div>
       </main>
     </>

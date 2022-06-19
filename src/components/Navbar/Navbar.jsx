@@ -5,7 +5,7 @@ import {
   IconButton,
   Typography,
 } from "@mui/material";
-import Logo from "../../assets/ch.png";
+import {GiHamburgerMenu} from 'react-icons/gi'
 import { Outlet } from "react-router-dom";
 
 import DrawerList from "../DrawerListItems/DrawerList";
@@ -26,7 +26,7 @@ const TemporaryDrawer = () => {
   return (
     <>
       <IconButton onClick={() => setIsDrawerOpen(true)}>
-        <img className="logo" src={Logo} alt="logo" />
+        <GiHamburgerMenu/>
       </IconButton>
       <Drawer
          sx={classes.drawer}

@@ -7,5 +7,6 @@
     justify-content: center;
 }
 .logoImg{
-    border-radius: 15px;
+    /* border-radius: 15px; */
+    height: 100vh;
 }
