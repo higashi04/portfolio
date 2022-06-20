@@ -70,7 +70,7 @@ export default function Projects() {
       <div className="container mb-3">
         <div className="row">
           <div className="col">
-            <p>And this portfolio made with React, MaterialUI, and Bootstrap</p>
+            <p>And this portfolio made with React and Bootstrap</p>
           </div>
           <div className="col">
             <a
