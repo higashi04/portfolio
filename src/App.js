@@ -7,13 +7,13 @@ import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
 
-import TemporaryDrawer from "./components/Navbar/Navbar";
+import Navigbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<TemporaryDrawer />}>
+        <Route path="/" element={<Navigbar />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects/>} />

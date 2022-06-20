@@ -1,0 +1,7 @@
+.navBtn{
+   color: #FFF;
+}
+.navBtn:hover{
+   background-color: #FFF;
+   color: #000;
+}

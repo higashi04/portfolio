@@ -1,5 +1,5 @@
 import React from "react";
-import { ImageList, ImageListItem } from "@mui/material";
+
 import "./ProjectHolder.css";
 
 export default function ProjectHolder({ data }) {
@@ -10,16 +10,17 @@ export default function ProjectHolder({ data }) {
       </div>
       <div className="row">
         <div className="col">
-          <ImageList sx={{ width: 800, height: 500 }} cols={2} rowHeight={450} rowWidth={500}>
+         
             {data.screenshots.map((item) => (
-              <ImageListItem key={item}>
+    
                 <img
+                className="project-img"
                   src={item}
                   alt="slide"
                 />
-              </ImageListItem>
+            
             ))}
-          </ImageList>
+          
           <div className="row my-3 project-btnContainer">
             <div className="col">
               <a className="btn project-btn" href={data.url}>
