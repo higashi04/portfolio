@@ -4,7 +4,7 @@ import "./ProjectHolder.css";
 
 export default function ProjectHolder({ data }) {
   return (
-    <div className="container project-box mx-5">
+    <div className="container project-box">
       <div className="row">
         <h2>{data.title}</h2>
       </div>

@@ -10,7 +10,7 @@ import "./Navbar.css"
 const Navigbar = () => {
   return (
     <>
-      <Navbar bg="dark" expand="lg">
+      <Navbar bg="dark" className="navbar-dark" expand="lg">
         <Container>
         <Link className="btn navBtn" to="/">
               <FaEmpire /> Home

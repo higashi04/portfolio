@@ -3,8 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: fit-content;
-    padding-left: 500px;
+    width: 500px;
 }
 
 .project-btnContainer{
@@ -34,7 +33,23 @@
 }
 @media (max-device-width: 500px) {
     .project-box{
-        width: fit-content;
-        padding-left: 0;
+        width: 400px;
+        padding-left: 10px;
+    }
+    .project-img{
+        width: 350px;
+        height: auto;
+        margin-bottom: 25px;
+    }
+}
+@media (max-device-width: 330px) {
+    .project-box{
+        width: 300px;
+        padding-left: 10px;
+    }
+    .project-img{
+        width: 250px;
+        height: auto;
+        margin-bottom: 25px;
     }
 }

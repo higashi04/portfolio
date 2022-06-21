@@ -67,7 +67,7 @@ export default function Projects() {
       {projects.map((item) => (
         <ProjectHolder key={item.id} data={item} />
       ))}
-      <div className="container mb-3">
+      <div className="container project-box mb-3">
         <div className="row">
           <div className="col">
             <p>And this portfolio made with React and Bootstrap</p>
