@@ -29,7 +29,12 @@ const stack = [
     id: 4,
     logo: Node,
     name: "NodeJS"
-  }
+  }, 
+  {
+    id: 5,
+    logo: Csharp,
+    name: "C#",
+  },
 ];
 
 const secondaryStack = [
@@ -38,11 +43,7 @@ const secondaryStack = [
     logo: Swift,
     name: "Swift for iOS",
   },
-  {
-    id: 2,
-    logo: Csharp,
-    name: "C#",
-  },
+
 
 ]
 

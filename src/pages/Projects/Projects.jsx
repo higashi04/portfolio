@@ -3,30 +3,19 @@ import ProjectHolder from "../../components/ProjectHolder/ProjectHolder";
 const projects = [
   {
     id: 1,
-    title: "Transporte Villarreal",
-    url: "https://transportevillarreal.herokuapp.com/",
-    code: "https://github.com/higashi04/mapShowing",
+    title: "Cities Summary",
+    url: "https://main--dancing-medovik-606d67.netlify.app/",
+    code: "https://github.com/higashi04/cities-summary",
     description:
-      "Website made for former employer using ReactJs, before my contract ended I began incorporating Google Maps API for geolocation. Hosted on Heroku.",
+      "This web app highlights use of APIs. It integrates a geo cities API whose data I send then to OpenAI to get a paragraph describing the city and MapBox pins the city on the map.",
     screenshots: [
-      "https://res.cloudinary.com/dngbwenom/image/upload/v1655672640/portfolio/googleMaps/Screenshot_2022-06-19_160315_mltmgm.png",
-      "https://res.cloudinary.com/dngbwenom/image/upload/v1655672745/portfolio/googleMaps/Screenshot_2022-06-19_160524_fz9efn.png",
+      "https://res.cloudinary.com/dngbwenom/image/upload/v1709357543/Screenshot_2024-03-01_233016_rfy8lt.png",
+      "https://res.cloudinary.com/dngbwenom/image/upload/v1709357543/Screenshot_2024-03-01_233016_rfy8lt.png",
+      "https://res.cloudinary.com/dngbwenom/image/upload/v1709357543/Screenshot_2024-03-01_233148_ajfbu7.png",
     ],
   },
   {
     id: 2,
-    title: "2048 Clone",
-    url: "https://higashi04.github.io/2048clone/",
-    code: "https://github.com/higashi04/2048clone",
-    description: "2048 clone I made. Note: It doesn't work on mobile.",
-    screenshots: [
-      "https://res.cloudinary.com/dngbwenom/image/upload/v1655677473/portfolio/googleMaps/Screenshot_2022-06-19_172253_wspwci.png",
-      "https://res.cloudinary.com/dngbwenom/image/upload/v1655677473/portfolio/googleMaps/Screenshot_2022-06-19_172334_sbvswp.png",
-      "https://res.cloudinary.com/dngbwenom/image/upload/v1655677473/portfolio/googleMaps/Screenshot_2022-06-19_172418_uriytt.png",
-    ],
-  },
-  {
-    id: 3,
     title: "Rock, Paper, Scissors",
     url: "https://higashi04.github.io/Rock-paper-scissors/",
     code: "https://github.com/higashi04/Rock-paper-scissors",
@@ -40,7 +29,7 @@ const projects = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     title: "Pokédex",
     url: "https://higashi04.github.io/dexfanmade/",
     code: "https://github.com/higashi04/dexfanmade",
@@ -51,14 +40,7 @@ const projects = [
       "https://res.cloudinary.com/dngbwenom/image/upload/v1655680456/portfolio/googleMaps/Screenshot_2022-06-19_181326_vlsz1i.png",
       "https://res.cloudinary.com/dngbwenom/image/upload/v1655680456/portfolio/googleMaps/Screenshot_2022-06-19_181351_hgpbw2.png",
     ],
-  },
-  //   {
-  //     id: 5,
-  //     title: "Operative Transportation System",
-  //     url: "https://afternoon-citadel-81863.herokuapp.com/",
-  //     code: "https://github.com/higashi04/SOT",
-  //     description: "Fullstack app made with NodeJs, Express, MongoDb and Mongoose ODM, and EJS for my former employer. It includes inventory control, personnel archives, user creation for the React App. Frontend was meant to be remade with React."
-  //   }
+  }
 ];
 
 export default function Projects() {
